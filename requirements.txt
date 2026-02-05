@@ -1,19 +1,14 @@
-# Core API Framework
-fastapi==0.109.0
-uvicorn[standard]==0.27.0
-pydantic==2.5.3
+# Core framework
+fastapi==0.110.0
+uvicorn==0.27.1
 
-# AI/ML
+# Data validation (PINNED & STABLE)
+pydantic==2.7.4
+
+# Utilities
+requests
+python-dotenv
+redis
+
+# Google Gemini SDK (PINNED)
 google-genai==0.3.0
-
-# Data Storage
-redis==5.0.1
-
-# HTTP Requests
-requests==2.31.0
-
-# Environment Management
-python-dotenv==1.0.0
-
-# Optional: Enhanced logging and monitoring
-python-json-logger==2.0.7
