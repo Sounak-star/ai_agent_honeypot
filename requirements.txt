@@ -2,9 +2,8 @@
 fastapi==0.110.0
 uvicorn==0.27.1
 
-# Validation (MUST be this range)
-pydantic==2.10.6
-pydantic-core==2.20.0
+# Validation
+pydantic
 
 # Utilities
 requests
