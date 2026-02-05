@@ -1,14 +1,15 @@
-# Core framework
+# Framework
 fastapi==0.110.0
 uvicorn==0.27.1
 
-# Data validation (PINNED & STABLE)
-pydantic==2.7.4
+# Validation (MUST be this range)
+pydantic==2.10.6
+pydantic-core==2.20.0
 
 # Utilities
 requests
 python-dotenv
 redis
 
-# Google Gemini SDK (PINNED)
+# Google Gemini SDK
 google-genai==0.3.0
